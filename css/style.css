@@ -2276,7 +2276,7 @@ blockquote {
 
 /* Landscape Tablet to Desktop
 ===============================*/
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (min-width: 768px) and (max-width: 3000px) {
 
     #wrapper {
         margin:0;
