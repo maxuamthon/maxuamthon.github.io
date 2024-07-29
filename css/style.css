@@ -781,7 +781,7 @@ a img:hover {
 
 @media (max-width: 768px) {
     a img {
-      border-radius: 8px; /* Change border-radius for mobile */
+      border-radius: 8px;
     }
   }
 
