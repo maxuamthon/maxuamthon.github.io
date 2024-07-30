@@ -60,6 +60,70 @@
     color: #000;
 }
 
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    margin: 10px;
+    /* padding: 20px; */
+    min-width: 200px;
+    /* flex: 0 0 auto; */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+  .card p {
+    /* margin: 10px 0 0; */
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .category {
+    display: inline-block;
+    padding: 5px 14px;
+    margin-left: 24px;
+    margin-right: -20px;
+    /* margin-bottom: 24px; */
+    border-radius: 20px;
+    background-color: #2656FF;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  @media (max-width: 600px) {
+    .category {
+      font-size: 12px;
+      padding: 3px 7px;
+      margin-bottom: 8px;
+    }
+}
+
 
 body,
 div,
@@ -781,9 +845,9 @@ a img:hover {
 
 @media (max-width: 768px) {
     a img {
-      border-radius: 8px;
+        border-radius: 8px;
     }
-  }
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 3. Fonts */
