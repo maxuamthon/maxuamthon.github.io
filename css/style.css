@@ -41,14 +41,12 @@
 /* Add corner radius to the image */
 .rounded-image {
     border-radius: 25px;
-    /* Adjust the radius value as needed */
 }
 
 /* Style the buttons */
 .custom-button {
     font-size: 14px;
     font-weight: 600;
-    margin: 14px 0;
     padding: 11px 16px;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -71,57 +69,67 @@
 
 .card-container {
     display: flex;
-    /* flex-wrap: nowrap; */
     overflow-x: auto;
-  }
-  .card {
+}
+
+.card {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: left;
     margin: 10px;
-    /* padding: 20px; */
     min-width: 200px;
-    /* flex: 0 0 auto; */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  }
+}
 
-  .card:hover {
+.card:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .card img {
+.card img {
     max-width: 100%;
     height: auto;
     border-radius: 0px;
-  }
-  .card p {
-    /* margin: 10px 0 0; */
-    padding-left: 24px;
-    font-size: 18px;
-    font-weight: 700;
-  }
-  .category {
+}
+
+.content {
+    padding: 24px;
+}
+
+.contentcate {
+    padding-top: 12px;
+}
+
+.category {
     display: inline-block;
     padding: 5px 14px;
-    margin-left: 24px;
-    margin-right: -20px;
-    /* margin-bottom: 24px; */
     border-radius: 20px;
     background-color: #2656FF;
     font-size: 14px;
     font-weight: 600;
     color: #fff;
-  }
+}
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     .category {
-      font-size: 12px;
-      padding: 3px 7px;
-      margin-bottom: 8px;
+        font-size: 12px;
+        padding: 3px 7px;
+        margin-bottom: 8px;
     }
+}
+
+.cert {
+    display: flex;
+}
+
+.certsize {
+    width: 185%;
+}
+
+.hilight {
+    color: #2656FF;
 }
 
 
@@ -474,9 +482,6 @@ section {
 }
 
 #logo img {
-    /* max-height: 48px; */
-    /* vertical-align: middle; */
-    /* margin-right: 15px; */
     max-width: 48px;
 }
 
