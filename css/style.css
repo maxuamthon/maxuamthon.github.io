@@ -838,11 +838,11 @@ a img {
     /* Maintain aspect ratio */
     border-radius: 15px;
     /* Add rounded corners */
-    -webkit-transition: all 0.3s ease-out;
+    /* -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; */
 }
 
 a img:hover {
