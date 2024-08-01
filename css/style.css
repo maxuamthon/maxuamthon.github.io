@@ -460,8 +460,8 @@ section {
 #logo {
     float: left;
     height: 71px;
-    line-height: 66px;
-    margin-right: 15px;
+    /* line-height: 66px; */
+    /* margin-right: 15px; */
     align-items: center;
     display: flex;
 }
