@@ -157,14 +157,7 @@
 
     &:hover {
         animation-play-state: paused;
-        /* color: red; */
     }
-}
-
-span {
-    float: left;
-    width: 50%;
-    overflow: hidden;
 }
 
 @keyframes marquee {
@@ -176,12 +169,6 @@ span {
         left: -100%;
     }
 }
-
-/* @media (max-width: 600px) {
-    .marquee {
-        height: 24px;
-    }
-} */
 
 
 body,
