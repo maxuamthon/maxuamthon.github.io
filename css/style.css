@@ -71,6 +71,11 @@
     background-color: #39FF13;
 }
 
+.custom-button2:hover {
+    color: #fff;
+    background-color: #3aff13b2;
+}
+
 .section-heading {
     margin-bottom: 20px;
 }
