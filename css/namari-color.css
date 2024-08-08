@@ -128,6 +128,13 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+@media (max-width: 768px) {
+    #banner {
+        background: url("../images/banner-images/profile_phone.jpg") no-repeat center top;
+        background-size: cover;
+    }
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
