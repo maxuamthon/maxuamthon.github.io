@@ -189,6 +189,24 @@
 }
 
 
+.contact-info a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-info .col-2 {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .contact-info a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 body,
 div,
 dl,
