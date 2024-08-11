@@ -113,6 +113,29 @@
     background: linear-gradient(90deg, #F2C03B, #1DEAB2);
 }
 
+@media (max-width: 768px) {
+    .custom-button {
+        font-size: 12px;
+        padding: 8px 18px;
+        border-radius: 6px;
+    }
+    .custom-button2 {
+        font-size: 12px;
+        padding: 8px 18px;
+        border-radius: 6px;
+    }
+    .custom-button3 {
+        font-size: 12px;
+        padding: 8px 18px;
+        border-radius: 6px;
+    }
+    .custom-button4 {
+        font-size: 12px;
+        padding: 8px 18px;
+        border-radius: 6px;
+    }
+}
+
 .section-heading {
     margin-bottom: 20px;
 }
