@@ -1943,7 +1943,7 @@ blockquote {
     inset: 0 100% 0 0;
     border-radius: inherit;
     background: currentColor;
-    animation: l6 2s infinite;
+    animation: l6 12s infinite;
   }
   @keyframes l6 {
       100% {inset:0}
