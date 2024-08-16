@@ -42,29 +42,6 @@
   </div>
   <!--End of Preloader-->
 
-  <p style="display: none;" id="visit-count"></p>
-
-  <script>
-    // Retrieve the visit count from localStorage
-    let visitCount = localStorage.getItem('visitCount');
-    
-    // Check if it's the user's first visit
-    if (visitCount === null) {
-      visitCount = 0;
-    } else {
-      visitCount = parseInt(visitCount, 10);
-    }
-    
-    // Increment the visit count
-    visitCount++;
-    
-    // Store the updated visit count in localStorage
-    localStorage.setItem('visitCount', visitCount);
-    
-    // Display the visit count on the page
-    document.getElementById('visit-count').textContent = `This is your visit number: ${visitCount}`;
-  </script>
-
   <div id="wrapper">
     <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
       <div id="header" class="nav-collapse">
