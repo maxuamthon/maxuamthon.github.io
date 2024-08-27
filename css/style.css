@@ -113,6 +113,25 @@
     background: linear-gradient(90deg, #F2C03B, #1DEAB2);
 }
 
+.custom-button5 {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 28px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    display: inline-block;
+    border-radius: 36px;
+    color: #fff;
+    background: linear-gradient(90deg, #FF36E6, #5243FE, #1400FF);
+    border: none;
+}
+
+.custom-button5:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #FF36E6, #5243FE, #1400FF);
+}
+
 @media (max-width: 768px) {
     .custom-button {
         font-size: 12px;
@@ -133,6 +152,11 @@
         font-size: 12px;
         padding: 8px 18px;
         border-radius: 6px;
+    }
+    .custom-button5 {
+        font-size: 12px;
+        padding: 8px 18px;
+        border-radius: 32px;
     }
 }
 
